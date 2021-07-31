@@ -1,0 +1,228 @@
+html, body{
+    padding: 0;
+    margin: 0;
+   
+}
+
+.aaa{
+    color: white;
+    font-weight: 900;
+    font-family: sans-serif;
+    font-style: italic;
+    display: flex;
+    flex: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(64, 216, 50, 0.89);
+
+}
+i:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+    text-decoration: none;
+}
+/*
+@keyframes aylan {
+    0%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.5);
+    }
+}
+}*/
+.aylana{
+    animation: aylan 1.3s linear infinite;
+    height: 10px;
+    width: 10px;
+    padding: 0;
+    border-radius: 50px;
+    background-color: rgb(23, 170, 255);
+}
+
+@keyframes turt {
+    0%{
+        transform: rotate(160deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.turt{
+    animation:  turt 1.3s linear infinite;
+        border: 2px red solid;
+    padding: 10px;
+    padding-top: -10px;
+}
+a{
+    text-decoration: none;
+    padding: 2px;
+}
+.aas{
+    width: 15%;
+    
+}
+.aas a{
+    text-decoration: none;
+}
+.rasm{
+    background-image: url(./../photo_2021-07-29_00-45-37.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+.qora{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.568));
+    width: 100%;
+    height: 350px;
+}
+@keyframes yon {
+    0%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.5);
+    }
+}
+.aziz{
+    animation:  yon 1.3s linear infinite;
+    float: right;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.692);
+    padding: 10px;
+    
+    
+    box-shadow: 1px 1px 20px 1px greenyellow;
+}
+.text{
+    color: white;
+    font-weight: 700;
+    font-family: cursive;
+    font-style: italic;
+    width: 25%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.377);
+    box-shadow: 2px 2px 25px 2px rgba(108, 255, 181, 0.719);
+    margin-left: 40px;
+    padding: 25px;
+    position: relative;
+    top: 40px;
+
+
+}
+.top-nav{
+    background-color: rgb(23, 206, 136);
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.top-nav a{
+    color: white;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    border: 2px solid yellowgreen;
+    box-shadow: 1px 1px 20px 1px black;
+    height: 610px;
+}
+
+.box2{
+    width: 45%;
+    height: 250px;
+    background-image: linear-gradient(rgba(41, 41, 252, 0.849),green);  
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-family: cursive;
+    font-style: italic;
+    border-radius: 10px;
+
+}
+.box3{
+    width: 45%;
+    height: 250px;
+    background-image: linear-gradient(rgba(41, 41, 252, 0.849),green);  
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-family: cursive;
+    font-style: italic;
+    border-radius: 10px;
+
+}
+div a{
+    text-decoration: none;
+    color: white;
+}
+.box1:hover{
+    background-image: linear-gradient(green,rgba(41, 41, 252, 0.849));  
+    transition: 1s;
+    color: white;
+    text-decoration: none;
+    box-shadow: 1px 1px 30px 1px black;
+}
+.box2:hover{
+    background-image: linear-gradient(green,rgba(41, 41, 252, 0.849));  
+    transition: 1s;
+    color: white;
+    text-decoration: none;
+    box-shadow: 1px 1px 30px 1px black;
+}
+.box3:hover{
+    background-image: linear-gradient(green,rgba(41, 41, 252, 0.849));  
+    transition: 1s;
+    color: white;
+    text-decoration: none;
+    box-shadow: 1px 1px 30px 1px black;
+}
+
+.box1 div{
+   
+
+    padding-bottom: 10px;
+    border-bottom:2px solid white ;
+    
+}
+.box2 div{
+    padding-bottom: 10px;
+    border-bottom:2px solid white ;
+    
+}
+.box3 div{
+    padding-bottom: 10px;
+    border-bottom:2px solid white ;
+    
+}
+@media screen and (max-width: 580px) {
+    .aas{
+        width: 35%;
+    }
+    .box{
+        height: 1300px;
+    }
+    .text{
+        width: 40%;
+    }
+    
+}

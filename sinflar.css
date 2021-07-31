@@ -1,0 +1,69 @@
+html body{
+    margin: 10px;
+    padding: 0;
+    background-image:repeating-linear-gradient(rgb(0, 140, 255),rgb(255, 102, 0));
+    
+    background-size: cover;
+    
+}
+
+.container{
+    text-align: center;
+    background-color: green;
+    color: rgb(255, 255, 255);
+        margin: 10px auto;
+        font-weight: 700;
+        font-family: sans-serif;
+        font-style: italic;
+        padding: 10px 5px;
+        border-radius: 10px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.aaa{
+    width: 10%;
+}
+.bbb{
+    width: 20%;
+}
+.sss{
+    width: 20%;
+}
+.ddd{
+    width: 30%;
+}
+.fff{
+    width: 40%;
+}
+.ggg{
+    width: 50%;
+}
+.hhh{
+    width: 60%;
+}
+.jjj{
+    width: 70%;
+}
+.kkk{
+    width: 80%;
+}
+.lll{
+    width: 87%;
+}
+.zzz{
+    width: 93%;
+}
+.xxx{
+    width: 100%;
+}
+.container:hover{
+    box-shadow: 1px 1px 20px 1px rgb(255, 0, 0);
+}
+.container:hover{
+    box-shadow: 1px 1px 20px 1px rgb(255, 0, 0);
+    text-decoration: underline;
+
+}
